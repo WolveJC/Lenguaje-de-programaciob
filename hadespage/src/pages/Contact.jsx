@@ -43,9 +43,9 @@ function Contact() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center p-8 transition-colors duration-300">
-      <div className="bg-zinc-200 p-8 rounded-xl shadow-lg w-full max-w-lg border-4 border-zinc-500">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b pb-2">
+    <div className="min-h-screen flex items-center justify-center p-8 bg-contact-gradient transition-colors duration-300">
+      <div className="bg-sky-dark p-8 rounded-xl shadow-lg w-full max-w-lg border-4 border-sky-accent">
+        <h2 className="text-3xl font-bold text-textStage-mid mb-6 border-b pb-2">
           Contáctame 📩
         </h2>
 
@@ -62,7 +62,7 @@ function Contact() {
             value={formData.name}
             onChange={handleChange}
             onBlur={() => handleBlur("name")}
-            className="w-full p-3 border rounded-lg text-gray-900 placeholder-gray-500"
+            className="w-full p-3 border rounded-lg bg-sky-dark text-textStage-start placeholder-textStage-mid"
           />
           <input
             type="email"
@@ -72,7 +72,7 @@ function Contact() {
             value={formData.email}
             onChange={handleChange}
             onBlur={() => handleBlur("email")}
-            className="w-full p-3 border rounded-lg text-gray-900 placeholder-gray-500"
+            className="w-full p-3 border rounded-lg bg-sky-dark text-textStage-start placeholder-textStage-mid"
           />
           <textarea
             name="message"
@@ -81,12 +81,12 @@ function Contact() {
             value={formData.message}
             onChange={handleChange}
             onBlur={() => handleBlur("message")}
-            className="w-full p-3 border rounded-lg h-32 text-gray-900 placeholder-gray-500"
+            className="w-full p-3 border rounded-lg h-32 bg-sky-dark text-textStage-start placeholder-textStage-mid"
           ></textarea>
 
           <button
             type="submit"
-            className="w-full bg-indigo-600 text-white py-3 rounded-lg hover:bg-indigo-700 transition"
+            className="w-full bg-sky-accent text-textStage-end py-3 rounded-lg hover:bg-sky-accentDark transition"
           >
             Enviar
           </button>
@@ -94,7 +94,7 @@ function Contact() {
 
         <button
           onClick={() => navigate("/")}
-          className="mt-6 w-full bg-gray-600 text-white py-3 rounded-lg hover:bg-gray-700 transition"
+          className="mt-6 w-full bg-textStage-mid text-sky-dark py-3 rounded-lg hover:bg-gray-400 transition"
         >
           ← Volver al Portafolio
         </button>
