@@ -5,15 +5,15 @@ function About() {
   return (
     <section
       id="sobre-mi"
-      className="p-8 rounded-xl shadow-lg mt-12 border-4 border-zinc-500 transition-colors duration-300"
+      className="p-8 rounded-xl shadow-lg mt-12 border-4 border-sky-accent transition-colors duration-300"
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b border-gray-600 pb-2">
+      <h2 className="text-3xl font-bold text-textStage-mid mb-6 border-b border-sky-accent pb-2">
         Sobre Mí 👤
       </h2>
 
       <div className="flex flex-col md:flex-row gap-8 items-center">
         {/* Texto */}
-        <div className="md:w-2/3 text-lg text-gray-700 space-y-4">
+        <div className="md:w-2/3 text-lg text-textStage-start space-y-4">
           <p>
             Soy estudiante de ingeniería de sistemas de la UNEFA núcleo Apure. 
             Aún soy bastante novato en el área de programación, pero he tenido 
@@ -33,7 +33,7 @@ function About() {
           <img
             src={AboutMeImage}
             alt="Ilustración o Logo Personal"
-            className="w-full max-w-xs h-auto rounded-xl shadow-lg border-4 border-indigo-200 object-cover"
+            className="w-full max-w-xs h-auto rounded-xl shadow-lg border-4 border-sky-accent object-cover"
           />
         </div>
       </div>
