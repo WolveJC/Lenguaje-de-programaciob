@@ -33,9 +33,9 @@ function Work() {
   return (
     <section
       id="trabajos"
-      className="border-4 border-zinc-500 p-8 rounded-xl shadow-lg mt-12 transition-colors duration-300"
+      className="border-4 border-sky-accent p-8 rounded-xl shadow-lg mt-12 transition-colors duration-300"
     >
-      <h2 className="text-3xl font-bold text-gray-900 mb-6 border-b pb-2">
+      <h2 className="text-3xl font-bold text-textStage-mid mb-6 border-b pb-2">
         Trabajos Destacados 🚀
       </h2>
 
@@ -54,5 +54,3 @@ function Work() {
 }
 
 export default Work;
-
-
