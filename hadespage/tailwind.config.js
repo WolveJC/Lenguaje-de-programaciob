@@ -7,20 +7,19 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        // Gradiente personalizado "night-sky"
-        "night-sky": "linear-gradient(to bottom, #000000 0%, #1a1a1a 40%, #ff0000 100%)",
+        // Gradiente personalizado
+        "night-sky": "linear-gradient(to bottom, #000000 0%, #1a1a1a 40%, #dc2626 100%)",
       },
       colors: {
         // Color personalizado "moon"
         moon: "#ffffff",
-        // Ejemplo: tonos adicionales si quieres jugar con la paleta
+        // Paleta "sky" con crimson
         sky: {
           dark: "#1a1a1a",
-          accent: "#ff0000",
+          accent: "#dc2626", // crimson
         },
       },
     },
   },
-  plugins: [
-  ],
+  plugins: [],
 };
